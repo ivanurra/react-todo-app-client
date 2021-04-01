@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Gelion-Regular';
+  src: url('./resources/fonts/Gelion-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gelion-Medium';
+  src: url('./resources/fonts/Gelion-Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GT-Super-Display';
+  src: url('./resources/fonts/GTSuperDisplay-Bold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
