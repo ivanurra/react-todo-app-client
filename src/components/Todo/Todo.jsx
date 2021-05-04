@@ -1,8 +1,8 @@
 import React from 'react'
 import TodoService from '../../services/todo.service'
 import Flag from '../svgs/Flag';
-import Text from '../Text';
 import SCTodo from './Todo.styled'
+import Text from '../Text';
 
 export default function Todo({ id, name, description, done, dueDate, user, priority, refresh }) {
   const todoService = new TodoService();

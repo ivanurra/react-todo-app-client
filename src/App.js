@@ -2,9 +2,9 @@ import './App.css';
 import { Switch, Route } from 'react-router-dom'
 import { useEffect, useState } from 'react';
 import AuthService from './services/auth.service';
+import Home from './components/pages/Home/Home';
 import Login from './components/pages/Login/Login';
 import Signup from './components/pages/Signup/Signup';
-import Home from './components/pages/Home/Home';
 import TodoList from './components/pages/TodoList/TodoList';
 
 function App() {
